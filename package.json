@@ -1,0 +1,23 @@
+{
+  "name": "movie_viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melvin-toni/movie_viewer.git"
+  },
+  "keywords": [
+    "movie",
+    "website"
+  ],
+  "author": "Melvin Toni Gustave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melvin-toni/movie_viewer/issues"
+  },
+  "homepage": "https://github.com/melvin-toni/movie_viewer#readme"
+}

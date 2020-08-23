@@ -1,0 +1,14 @@
+1. variable (let & const)
+2. template literal
+3. destructuring object & array
+4. spreading operator
+5. arrow function
+6. default parameter
+7. class
+8. custom element
+9. web component
+10. npm
+11.webpack
+12.AJAX
+
+https://image.tmdb.org/t/p/w500_and_h282_face/uWfOjlxNi2M0Qkmi1J9c0la7rEd.jpg
