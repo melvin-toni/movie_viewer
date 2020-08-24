@@ -19,9 +19,7 @@
         <![endif]-->
 
         <header class="row">
-            <div class="col-md-12">
-                <h1>MTG Movie Viewer</h1>
-            </div>
+            <app-bar></app-bar>
         </header>
 
         <div class="row">
@@ -33,7 +31,7 @@
             </nav>
             
             <main class="col-md-10">
-                <article class="row justify-content-left" id="movieList"></article>
+                <movie-list></movie-list>
             </main>
         </div>
 
@@ -49,6 +47,6 @@
     
         <script src="data.js"></script>
         <script src="data-source.js"></script>
-        <script src="main.js"></script>
+        <script type="module" src="main.js"></script>
     </body>
 </html>
