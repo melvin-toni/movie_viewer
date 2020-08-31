@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server",
+    "build": "webpack",
+    "start-dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/melvin-toni/movie_viewer/issues"
   },
-  "homepage": "https://github.com/melvin-toni/movie_viewer#readme"
+  "homepage": "https://github.com/melvin-toni/movie_viewer#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.1.3"
+  }
 }
