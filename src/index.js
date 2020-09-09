@@ -44,8 +44,14 @@ const main = () => {
 
     for (let i=0; i<btnNavGenre.length; i++) {
         btnNavGenre[i].addEventListener("click", () => {
-            let genreId = 28;
-            if (i === 1) { genreId = 12 }
+            let genreId = 28; // Action
+            if (i === 1) { genreId = 12 } // Adventure
+            else if (i === 2) { genreId = 16 } // Animation
+            else if (i === 3) { genreId = 35 } // Comedy
+            else if (i === 4) { genreId = 27 } // Horror
+            else if (i === 5) { genreId = 99 } // Documentary
+            else if (i === 6) { genreId = 18 } // Drama
+            else if (i === 6) { genreId = 10751 } // Family
             
             btnNavGenre[i].addEventListener("click", onButtonNavClicked(genreId));
         });
