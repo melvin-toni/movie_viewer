@@ -52,7 +52,7 @@ const main = () => {
             else if (i === 4) { genreId = 27 } // Horror
             else if (i === 5) { genreId = 99 } // Documentary
             else if (i === 6) { genreId = 18 } // Drama
-            else if (i === 6) { genreId = 10751 } // Family
+            else if (i === 7) { genreId = 10751 } // Family
             
             btnNavGenre[i].addEventListener("click", onButtonNavClicked(genreId));
         });
