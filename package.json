@@ -23,7 +23,9 @@
     "url": "https://github.com/melvin-toni/movie_viewer/issues"
   },
   "homepage": "https://github.com/melvin-toni/movie_viewer#readme",
-  "dependencies": {},
+  "dependencies": {
+    "regenerator-runtime": "^0.13.7"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.4",
     "@babel/preset-env": "^7.11.0",

@@ -1,3 +1,4 @@
+import "regenerator-runtime";
 import DataSource from './script/data/data-source.js';
 import './script/component/app-bar.js';
 import './script/component/movie-list.js';
