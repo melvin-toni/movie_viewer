@@ -7,3 +7,7 @@ Front end website built from scratch with basic javascript and bundle with webpa
 1. Run `npm i`
 2. If using nvm, change to node version 14 with `nvm use 14.17.3`
 3. Run `npm run build` , it will generate folder `dist` which contain our FE
+
+## Branch list
+
+1. For simple admin CRUD `git checkout simple/crud`
